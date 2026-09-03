@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ella Cohen — Electrical & Computer Engineering</title>
+<meta name="description" content="Ella Cohen — EE/CS student at Duke University. Projects across hardware, software, and machine learning.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-backdrop" aria-hidden="true"></div>
+
+<header class="topbar">
+  <span class="topbar__mark">E.C.</span>
+  <nav class="topbar__nav">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero">
+    <p class="hero__label">EE + CS — Duke University, Class of 2028</p>
+    <h1 class="hero__name">Ella Cohen</h1>
+    <svg class="hero__trace" viewBox="0 0 620 40" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,20 L120,20 L140,6 L200,6 L220,20 L400,20 L420,34 L480,34 L500,20 L620,20" />
+      <circle cx="120" cy="20" r="3.5"></circle>
+      <circle cx="220" cy="20" r="3.5"></circle>
+      <circle cx="420" cy="34" r="3.5"></circle>
+      <circle cx="500" cy="20" r="3.5"></circle>
+    </svg>
+    <p class="hero__tagline">I build things that sit between hardware and code — CPUs on breadboards, robots with sensors, and the software that ties it together. Concentrating in machine learning, currently deciding what to build next.</p>
+    <div class="hero__links">
+      <a href="mailto:efc21@duke.edu">efc21@duke.edu</a>
+      <span class="dot">·</span>
+      <a href="https://www.linkedin.com/in/ella-cohen-91294220b" target="_blank" rel="noopener">LinkedIn</a>
+      <span class="dot">·</span>
+      <a href="#" id="resume-link">Resume (PDF)</a>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2 class="section__heading">About</h2>
+    <div class="section__body">
+      <p>I'm an Electrical & Computer Engineering and Computer Science student at Duke, concentrating in machine learning. My work spans from designing a MIPS processor in Logisim to writing backend services in Django to soldering circuits for a medical device — I like projects where the hardware and software constraints push back on each other.</p>
+      <p>Outside coursework, I've managed logistics for an international bridge-building project in Eswatini, taught programming to kids through Boolean Girl, and I currently run operations for Duke's Rock Climbing Club.</p>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <h2 class="section__heading">Experience</h2>
+    <ol class="timeline">
+
+      <li class="timeline__item">
+        <div class="timeline__marker"></div>
+        <div class="timeline__content">
+          <div class="timeline__row">
+            <h3>Office Engineer Intern — MEP Building Technology</h3>
+            <span class="timeline__date">May – Aug 2026</span>
+          </div>
+          <p class="timeline__org">Holder Construction</p>
+          <ul>
+            <li>Worked on RFIs, submittals, spare parts tracking, decommissioning letters, commissioning critical paths, and factory witness test decisions.</li>
+            <li>Automated monthly tasks with Microsoft Power Automate.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="timeline__item">
+        <div class="timeline__marker"></div>
+        <div class="timeline__content">
+          <div class="timeline__row">
+            <h3>Teaching Assistant — ECE 110 & EGR 105</h3>
+            <span class="timeline__date">Aug 2025 – May 2026</span>
+          </div>
+          <p class="timeline__org">Duke University</p>
+          <ul>
+            <li>Supported 100+ students with Python development, debugging, Git version control, and CLI workflows.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="timeline__item">
+        <div class="timeline__marker"></div>
+        <div class="timeline__content">
+          <div class="timeline__row">
+            <h3>Logistics and Media Manager — Eswatini Bridge Project</h3>
+            <span class="timeline__date">Jan – Aug 2025</span>
+          </div>
+          <p class="timeline__org">Engineers in Action</p>
+          <ul>
+            <li>Designed bridge components in AutoCAD and took part in on-site construction of a suspended bridge.</li>
+            <li>Managed technical documentation and logistics for a 15-person international engineering team.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="timeline__item">
+        <div class="timeline__marker"></div>
+        <div class="timeline__content">
+          <div class="timeline__row">
+            <h3>Instructor & AI Curriculum Lead</h3>
+            <span class="timeline__date">Summers 2023, 2024</span>
+          </div>
+          <p class="timeline__org">Boolean Girl</p>
+          <ul>
+            <li>Led updates to AI and programming curricula, focused on clarity and accessibility.</li>
+            <li>Delivered instruction in Python, Scratch, and micro:bit across multiple cohorts.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="timeline__item">
+        <div class="timeline__marker"></div>
+        <div class="timeline__content">
+          <div class="timeline__row">
+            <h3>Intern</h3>
+            <span class="timeline__date">Summer 2022</span>
+          </div>
+          <p class="timeline__org">PBS</p>
+          <ul>
+            <li>Tested and documented functionality of legacy web pages against user requirements.</li>
+          </ul>
+        </div>
+      </li>
+
+    </ol>
+  </section>
+
+  <section class="section" id="projects">
+    <h2 class="section__heading">Projects</h2>
+    <div class="projects">
+
+      <article class="project">
+        <div class="project__corner project__corner--tl"></div>
+        <div class="project__corner project__corner--br"></div>
+        <h3>Book Club Web Application</h3>
+        <p class="project__date">Aug 2024 – Feb 2025</p>
+        <p>Full-stack web app with CRUD functionality covering scheduling, voting, and notifications. Built email delivery on the backend using SMTP.</p>
+        <div class="tags"><span>Python</span><span>Django</span><span>HTML/CSS</span></div>
+      </article>
+
+      <article class="project">
+        <div class="project__corner project__corner--tl"></div>
+        <div class="project__corner project__corner--br"></div>
+        <h3>ISS Deorbit Algorithm</h3>
+        <p class="project__date">Fall 2024</p>
+        <p>Physics-based simulation built with an agile team to model system behavior and visualize deorbit trajectories.</p>
+        <div class="tags"><span>Python</span><span>Matplotlib</span><span>Git</span></div>
+      </article>
+
+      <article class="project">
+        <div class="project__corner project__corner--tl"></div>
+        <div class="project__corner project__corner--br"></div>
+        <h3>Markov Model Text Generator</h3>
+        <p class="project__date">Fall 2025</p>
+        <p>Preprocessed raw text data and implemented a probabilistic Markov model for text generation.</p>
+        <div class="tags"><span>Python</span><span>Machine Learning</span></div>
+      </article>
+
+      <article class="project">
+        <div class="project__corner project__corner--tl"></div>
+        <div class="project__corner project__corner--br"></div>
+        <h3>Breast Biopsy Assistive Device</h3>
+        <p class="project__date">Fall 2024</p>
+        <p>Led planning for an award-winning medical device, balancing patient and clinician needs against circuit and mechanical constraints.</p>
+        <div class="tags"><span>Onshape CAD</span><span>Circuitry</span><span>Solenoids</span></div>
+      </article>
+
+      <article class="project">
+        <div class="project__corner project__corner--tl"></div>
+        <div class="project__corner project__corner--br"></div>
+        <h3>Thermal Sensor Robot</h3>
+        <p class="project__date">Spring 2025</p>
+        <p>Autonomous robot integrating multiple sensors with task-based control logic.</p>
+        <div class="tags"><span>Arduino</span><span>C++</span><span>Sensors</span></div>
+      </article>
+
+      <article class="project">
+        <div class="project__corner project__corner--tl"></div>
+        <div class="project__corner project__corner--br"></div>
+        <h3>CPU — MIPS</h3>
+        <p class="project__date">Spring 2026</p>
+        <p>Designed and implemented a CPU supporting MIPS assembly and core RISC processor functionality.</p>
+        <div class="tags"><span>Logisim</span><span>C</span><span>Computer Architecture</span></div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <h2 class="section__heading">Skills</h2>
+    <div class="skills">
+      <div class="skills__group">
+        <h4>Languages</h4>
+        <div class="tags"><span>Python</span><span>Java</span><span>C</span><span>C++</span><span>MATLAB</span><span>MIPS Assembly</span><span>JavaScript</span><span>TypeScript</span></div>
+      </div>
+      <div class="skills__group">
+        <h4>Web</h4>
+        <div class="tags"><span>HTML</span><span>CSS</span></div>
+      </div>
+      <div class="skills__group">
+        <h4>Frameworks & Libraries</h4>
+        <div class="tags"><span>Django</span><span>NumPy</span><span>Matplotlib</span><span>Tkinter</span><span>JUnit</span></div>
+      </div>
+      <div class="skills__group">
+        <h4>Tools</h4>
+        <div class="tags"><span>Git</span><span>MySQL</span><span>VS Code</span><span>Vim</span><span>PyCharm</span><span>Linux/Unix</span><span>AutoCAD</span><span>Onshape</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="education">
+    <h2 class="section__heading">Education</h2>
+    <div class="education">
+      <div class="timeline__row">
+        <h3>Duke University</h3>
+        <span class="timeline__date">Expected May 2028</span>
+      </div>
+      <p class="timeline__org">BSE Electrical & Computer Engineering · BS Computer Science — GPA 3.981</p>
+      <p>Concentration in Machine Learning</p>
+      <p class="education__coursework">Data Structures & Algorithms, Signals & Systems, Linear Algebra, Introduction to Electrical Engineering, Multivariable Calculus, Physics II (Electricity & Magnetism), Probability, Introduction to Microelectronic Devices and Circuits, Computer Architecture</p>
+      <p class="education__affiliations">Duke Engineers for International Development · Society of Women Engineers · Duke Technology Scholars (DTech Scholar) · Duke Rock Climbing Club (Ops Manager)</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="contact" id="contact">
+  <h2>Get in touch</h2>
+  <p>Reach out about internships, research, or anything hardware-meets-software.</p>
+  <a class="contact__email" href="mailto:efc21@duke.edu">efc21@duke.edu</a>
+  <p class="contact__linkedin"><a href="https://www.linkedin.com/in/ella-cohen-91294220b" target="_blank" rel="noopener">linkedin.com/in/ella-cohen-91294220b</a></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
